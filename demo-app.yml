@@ -8,7 +8,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   namespace: mohith-2048
-  name: deployment-2048
+  name: demo-deployment-2048
 spec:
   selector:
     matchLabels:
